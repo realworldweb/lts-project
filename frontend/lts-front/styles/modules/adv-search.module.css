@@ -1,0 +1,8 @@
+@import"../base/_vars.css";
+
+.advSearch{
+    width: clamp(320px, 50%, 1200px);
+    max-height: 400px;
+    transform: translateY(-50%);
+
+}

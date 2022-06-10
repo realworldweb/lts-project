@@ -4,6 +4,7 @@ import dynamic from 'next/dynamic'
 import Standard from './layouts/standard';
 
 import HeroImg from './components/hero-img';
+import AdvSearch from './components/adv-search';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Standard>
       <main>
       <HeroImg />
+      <AdvSearch />
       </main>
       </Standard>
       

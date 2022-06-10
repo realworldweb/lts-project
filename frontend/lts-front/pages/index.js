@@ -1,8 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import dynamic from 'next/dynamic'
 
 import Standard from './layouts/standard';
+
+import HeroImg from './components/hero-img';
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       </Head>
       <Standard>
       <main>
-        
+      <HeroImg />
       </main>
       </Standard>
       

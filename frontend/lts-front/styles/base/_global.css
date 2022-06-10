@@ -30,3 +30,16 @@ body{
     overflow-x: hidden; 
     box-sizing: border-box;
 }
+
+header{
+    flex: 1 1 clamp(50px,5vh,300px);
+  }
+  
+  main{
+   flex: 1 1 clamp(600px,90vh,100vh);
+  }
+  
+  footer{
+      flex: 1 1 clamp(100px,5vh,300px);
+    
+  }

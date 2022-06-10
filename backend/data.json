@@ -1,0 +1,44 @@
+{
+	"data": [
+		{
+			"name": "5* hotel", 
+			"price": {
+				"unit": "pp",
+				"value": 498.5
+			},
+			"description": "This is a fantastic package for a 9 day stay at a premium hotel."
+		},
+		{
+			"name": "5* hotel", 
+			"price": {
+				"unit": "pp",
+				"value": 498.5
+			},
+			"description": "This is a fantastic package for a 9 day stay at a premium hotel."
+		},
+		{
+			"name": "5* hotel", 
+			"price": {
+				"unit": "pp",
+				"value": 498.5
+			},
+			"description": "This is a fantastic package for a 9 day stay at a premium hotel."
+		},
+		{
+			"name": "5* hotel", 
+			"price": {
+				"unit": "pp",
+				"value": 498.5
+			},
+			"description": "This is a fantastic package for a 9 day stay at a premium hotel."
+		},
+		{
+			"name": "5* hotel", 
+			"price": {
+				"unit": "pp",
+				"value": 498.5
+			},
+			"description": "This is a fantastic package for a 9 day stay at a premium hotel."
+		}
+	]
+}

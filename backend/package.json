@@ -1,0 +1,16 @@
+{
+  "name": "lts-project",
+  "version": "1.0.0",
+  "description": "lts_api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "paul rooney",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "fs": "0.0.1-security"
+  }
+}

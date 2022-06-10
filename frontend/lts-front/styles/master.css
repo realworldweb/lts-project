@@ -1,6 +1,5 @@
 /*place vars and theme support*/
 @import"./base/_bootstrap.min.css";
-@import"./base/_mixins.css";
 @import"./base/_vars.css";
 
 
@@ -8,6 +7,4 @@
 /*place global css*/
 @import"./base/_global.css";
 
-/*place module css*/
-@import"./modules/_header.css";
-@import"./modules/_adv-search.css";
+

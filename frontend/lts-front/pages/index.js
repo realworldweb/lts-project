@@ -4,7 +4,6 @@ import dynamic from 'next/dynamic'
 
 import Standard from './layouts/standard';
 
-
 export default function Home() {
   return (
     <div>

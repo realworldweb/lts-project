@@ -1,0 +1,24 @@
+@import"../base/_vars.css";
+
+.header{
+    max-width: $full-width;  
+
+&__content{
+gap: 5vw;
+}
+
+& a{
+    color: $lts-blue;
+    text-decoration: none;
+    line-height: 0;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+& svg{
+    color: $lts-blue;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+}
+

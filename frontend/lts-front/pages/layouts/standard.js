@@ -8,9 +8,9 @@ const Footer = dynamic(() => import('../components/footer'));
 
 export default function Front({ children }) {
 	return (
-		<div>
+		<>
 			<div
-				className='d-flex flex-column justify-content-around mx-auto'
+				className='d-flex flex-column justify-content-between mx-auto'
 				id='contentContainer'
 			>
 				<header>
@@ -23,6 +23,6 @@ export default function Front({ children }) {
 					<Footer />
 				</footer>
 			</div>
-		</div>
+		</>
 	);
 }

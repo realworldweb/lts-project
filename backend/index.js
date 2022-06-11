@@ -2,9 +2,12 @@ const express = require("express");
 
 const fs = require('fs');
 
+var cors = require('cors');
+
 const PORT = process.env.PORT || 3001;
 
 const app = express();
+app.use(cors());
 
 app.get('/api/data', (req, res) => {
 

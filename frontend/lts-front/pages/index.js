@@ -1,12 +1,13 @@
 import Head from 'next/head'
-import dynamic from 'next/dynamic'
 
 import Standard from './layouts/standard';
 
 import HeroImg from './components/hero-img';
 import AdvSearch from './components/adv-search';
+import MainContent from './components/main-content';
 
 export default function Home() {
+ 
   return (
     <>
       <Head>
@@ -15,10 +16,9 @@ export default function Home() {
         {/*<link rel="icon" href="/favicon.ico" />*/}
       </Head>
       <Standard>
-      <main>
       <HeroImg />
       <AdvSearch />
-      </main>
+      <MainContent />
       </Standard>
       
     </>

@@ -16,6 +16,7 @@ body{
     width: inherit;
     overflow-x: hidden; 
     background-color: $lts-white;
+    font-family: $main-font;
     box-sizing: border-box;
     
 }
@@ -32,7 +33,10 @@ body{
 }
 
 header{
-    flex: 1 1 clamp(50px,5vh,300px);
+    position: fixed;
+    margin-left: -9px;
+    width: 100%;
+    z-index: 100;
   }
   
   main{

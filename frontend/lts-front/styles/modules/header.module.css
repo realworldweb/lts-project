@@ -1,7 +1,7 @@
 @import"../base/_vars.css";
 
 .header{
-    max-width: $full-width;  
+    max-width: $full-width;
 
 &__content{
 gap: 5vw;

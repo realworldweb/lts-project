@@ -1,0 +1,41 @@
+@import"../base/_vars.css";
+
+.resultsContainer{
+    max-width: $full-width;
+
+    & p{
+      font-family: $main-font;
+    }
+}
+
+.resultsCard{
+    max-width: 1400px;
+    gap: 5px;
+}
+
+.searchResults{
+    display: grid;
+    font-family: $main-font;
+    width: 50%;
+    gap: 5px;
+    grid-template-areas: 
+    "header header header"
+    "pic price price"
+    "pic desc desc";
+}
+
+.searchTitle{
+    grid-area: header;
+}
+
+.searchImg{
+    grid-area: pic;
+}
+
+.searchPrice{
+    grid-area: price;
+}
+
+.searchDesc{
+    grid-area: desc;
+}

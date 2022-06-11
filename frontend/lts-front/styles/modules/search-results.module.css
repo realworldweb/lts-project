@@ -2,6 +2,7 @@
 
 .resultsContainer{
     max-width: $full-width;
+    min-height: 50vh;
 
     & p{
       font-family: $main-font;

@@ -8,7 +8,7 @@ import Search from '../assets/search'
 export default function Header(props) {
   const [search, setSearch] = useState('');
   return (
-    <nav className={`navbar navbar-light bg-dark align-items-center justify-content-around mx-auto border-bottom border-dark ${Styles.header}`}>
+    <nav className={`navbar navbar-light bg-white align-items-center justify-content-around mx-auto border-bottom border-dark ${Styles.header}`}>
     <div className='container-fluid px-5 mx-lg-5'>
     <div className={`title`}>
     <Link href='/'><a><img src='/logo.png' alt='logo img for LTS'/></a></Link>

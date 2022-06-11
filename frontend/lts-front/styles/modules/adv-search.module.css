@@ -5,4 +5,12 @@
     max-height: 400px;
     transform: translateY(-50%);
 
+& div select, & button{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-family: $main-font;
+    font-weight: 900;
+}
+
 }

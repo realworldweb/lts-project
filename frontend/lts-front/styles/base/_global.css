@@ -17,6 +17,7 @@ body{
     overflow-x: hidden; 
     background-color: $lts-white;
     font-family: $main-font;
+    font-size: 1.5rem;
     box-sizing: border-box;
     
 }
@@ -46,4 +47,12 @@ header{
   footer{
       flex: 1 1 clamp(100px,5vh,300px);
     
+  }
+
+  h1{
+    font-size: 5rem;
+  }
+
+  h2{
+    font-size: 3rem;
   }
